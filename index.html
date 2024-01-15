@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v21.0.1/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <title>TTS Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .abstract {
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .audio-category p {
+            font-family: 'Vazir';
+            font-size: small;
+        }
+        .audio-samples {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .audio-sample {
+            margin:20px auto;
+            text-align: center;
+        }
+        .audio-sample p {
+            font-family: 'Vazir', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="abstract">
+        <p>This is an example of a text-to-speech (TTS) demo...</p>
+    </div>
+    <div class="audio-category">
+        <h2>Persian Samples [Main Speaker]</h2>
+        <div class="audio-samples">
+            <div class="audio-sample">
+                <p>قابلیت برقراری ارتباط از مهم‌ترین ویژگی‌هایی است که انسان را از دیگر موجودات متمایز کرده است و باعث پیشرفت او شده است . امروزه کمتر کسی به اهمیت برقراری ارتباط موثر واقف نیست</p>
+                <audio controls>
+                    <source src="/static/main_speaker_1.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-sample">
+                
+                <p>نیکلا خشمگین‌تر از آن بود که بتواند ادامه دهد .اولگا گریه کنان با صدایی رقت انگیز گفت که ریز او را دوست ندارد و با او فقط به خارج از شهر به گردش رفته و در اتاق هتلش با او دیدار داشته و واقعا دوست دارد به سفر خارج از کشور برود </p>
+                <p style="color:blueviolet">[تولید موسیقی زمینه خودکار]</p>
+                <audio controls>
+                    <source src="/static/main_speaker_2_music.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="audio-samples">
+            <div class="audio-sample">
+                <p>در شرایطی که وقوع اتفاقاتی مانند توافق ایران و عربستان، عادی‌سازی روابط ترکیه و عربستان، توقف جنگ در یمن، بازگشت سوریه به اتحادیه عرب و هم‌چنین افزایش تلاش‌ها برای عادی‌سازی روابط ایران و مصر نوید پایان تنش‌ها در خاورمیانه و فرارسیدن دوران صلح و ثبات در منطقه را می‌داد، ۱۰۰ روز گذشته آن چنان طوفانی در خاورمیانه درگرفت که تمام این خوش‌بینی‌ها را نقش بر آب کرد</p>
+                <audio controls>
+                    <source src="/static/main_speaker_3.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-sample">
+                
+                <p>امپرسیونیسمِ آنتوان چخوف , متفاوت از فرانسه بود ولی اعتراض افرادی همچون ماکسیم کورگی را به دنبال داشت</p>
+                <p style="color:blueviolet">[تولید موسیقی زمینه خودکار]</p>
+                <audio controls>
+                    <source src="/static/main_speaker_4_music.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+    <hr> 
+    <div class="audio-category">
+        <h2>English Samples [Main Speaker]</h2>
+        <div class="audio-samples">
+            <div class="audio-sample">
+                <p>Gaming refers to playing electronic games, whether through consoles, computers, mobile phones or another medium altogether.</p>
+                <audio controls>
+                    <source src="/static/main_speaker_english.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="audio-sample">
+                
+                <p>The success of the Iranian Revolution was met with surprise around the world, and was considered by many to be unusual in nature: it lacked many of the customary causes of revolutionary sentiment</p>
+                <p style="color:blueviolet">[استایل خودکار]</p>
+                <audio controls>
+                    <source src="/static/main_speaker_english_2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+    <hr> 
+    <div class="audio-category">
+        <h2>Style Transfer</h2>
+        <p>قابلیت برقراری ارتباط از مهم‌ترین ویژگی‌هایی است که انسان را از دیگر موجودات متمایز کرده است و باعث پیشرفت او شده است . امروزه کمتر کسی به اهمیت برقراری ارتباط موثر واقف نیست</p>
+        <div class="audio-samples">
+            <!-- Add your multi speaker audio samples here -->
+            <div class="audio-sample">
+                <p style="color:blueviolet">[استایل عدل فردوسی پور]</p>
+                <audio controls>
+                    <source src="/static/style_tranfer_ferdosipoor.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="audio-samples">
+            <!-- Add your multi speaker audio samples here -->
+            <div class="audio-sample">
+                <p style="color:blueviolet">[استایل عدل فردوسی پور]</p>
+                <audio controls>
+                    <source src="/static/style_tranfer_ferdosipoor.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+    <hr> 
+</body>
+</html>
+</html>
